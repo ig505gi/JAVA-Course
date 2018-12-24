@@ -7,6 +7,8 @@ control+/ 注释某一行 （mac下 是 command）
 
 shift+↑ 选中光标移动行
 
+eclipse右上角可以切换java模式和debug模式
+
 ## 2.字符串输出
 ### 2.1string与数字类型转化demo
 `system.out.println(2+3+“=2+3=”+2+3)；`
