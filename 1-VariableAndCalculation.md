@@ -1,9 +1,11 @@
 # mooc 翁老师JAVA入门视频学习
 ## 1.IDE使用小技巧
 
-control+/ 注释某一行
+Alt+/ 补全
 
-control+↑ 选中光标移动行
+control+/ 注释某一行 （mac下 是 command）
+
+shift+↑ 选中光标移动行
 
 ## 2.字符串输出
 ### 2.1string与数字类型转化demo
@@ -11,3 +13,9 @@ control+↑ 选中光标移动行
 
 控制台输出：
 `5=2+3=23`
+
+println输出回车，print不输出回车
+
+## 3.定义常量
+final
+
