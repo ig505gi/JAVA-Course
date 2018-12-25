@@ -93,6 +93,7 @@ char类型加1得到ASCII码表后面的一个字符
 ### 9.2 逃逸字符
 `\b` 回退一格，在Eclipse里面不会执行，需要到console才行。并且只是光标回退一格，接下来的输出从这里开始，不会删除只会被覆盖
 
+`\t` 到下一个表格位
 ```
 System.out.println("123\tabc")
 System.out.println("12\tabc")
@@ -103,4 +104,13 @@ System.out.println("12\tabc")
 12      abc
 ```
 
-`\r` 回车
+`\r` 回车 `\n` 换行，来源老式打印机，现在使用可能差不多？
+
+## 10.包裹类型
+int --> Integer, char --> Character
+
+包裹类型的意义：可以用点运算符，eg：
+
+`Integer.Max_VALUE` 得到int型的最大范围
+
+`Character.toLowerCase('A')` --> a, 可以使用许多方法
