@@ -136,3 +136,9 @@ String的定义和数组一样需要用new，也就说明了和数组一样定�
 因此，`s == "Hello world"`返回的是false
 
 需要用 `s.equals("Hello world")` 返回的是true
+
+### 11.3 索引
+
+用`s.length()` 可以获取长度
+
+遍历的时候跟数组一样 `s[index]`  但是不能用for-each循环
