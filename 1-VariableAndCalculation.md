@@ -11,7 +11,7 @@ shift+↑ 选中光标移动行
 
 eclipse右上角可以切换java模式和debug模式
 
-## 2.字符串输出
+## 2.print 输出
 ### 2.1string与数字类型转化demo
 `system.out.println(2+3+“=2+3=”+2+3)；`
 
@@ -46,11 +46,12 @@ final
 ### 7.1 for
 for循环的（；；）每个分号之间都可以空着，也可以用逗号链接多个句子，是唯一一处可以用逗号链接构成长句子的地方
 
-### 7.2 break out
+### 7.2 break/continue
 要离开多重循环的时候，可以在需要的for前加上一个限定词 如OUT
 
 然后在多重循环里面 break OUT；即可结束多重循环
 
+continue 同理也可以这样使用
 ### 7.3 for-each循环
 ```
 int[] nums = new int[2]
@@ -67,3 +68,7 @@ for(int item : nums){ item = 1;}
 `int[] b = a` 该行代码使得b指向了a所指向的数组，改变a[i]的同时，b[i]也会变，反之也会变
 
 b称之为数组变量，如果比较数组变量，比较的是两个数组变量是否管理一个数组
+
+## 9.字符串
+### 9.1 char
+`char a = 'a';`
