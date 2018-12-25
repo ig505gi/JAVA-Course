@@ -79,3 +79,9 @@ char c = '字';
 java用的Unicode编码，汉字也是一个字符
 
 `ch++` --> `b`
+
+char类型加1得到ASCII码表后面的一个字符
+
+`char ch='\u0041'` == `char ch=65` == `char ch='A'`
+
+代表16进制的ASCII码值，即65 -->A,
