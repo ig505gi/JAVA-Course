@@ -16,7 +16,13 @@ eclipse右上角可以切换java模式和debug模式
 控制台输出：
 `5=2+3=23`
 
-println输出回车，print不输出回车
+### 2.2格式化输出
+println输出回车
+
+print不输出回车
+
+输出两位有效数字
+`System.out.printf("%.2f", 7.128741)`
 
 ## 3.定义常量
 final
