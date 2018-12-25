@@ -84,4 +84,23 @@ char类型加1得到ASCII码表后面的一个字符
 
 `char ch='\u0041'` == `char ch=65` == `char ch='A'`
 
-代表16进制的ASCII码值，即65 -->A,
+代表16进制的ASCII码值，即65 -->A
+
+字符可以做加减法，得到的值是int
+
+字符可以比较大小，比较的是ASCII值
+
+### 9.2 逃逸字符
+`\b` 回退一格，在Eclipse里面不会执行，需要到console才行。并且只是光标回退一格，接下来的输出从这里开始，不会删除只会被覆盖
+
+```
+System.out.println("123\tabc")
+System.out.println("12\tabc")
+```
+输出：
+```
+123     abc
+12      abc
+```
+
+`\r` 回车
