@@ -11,20 +11,25 @@ shift+↑ 选中光标移动行
 
 eclipse右上角可以切换java模式和debug模式
 
-## 2.print 输出
-### 2.1string与数字类型转化demo
+## 2.输出和输入
+### 2.1 string与数字类型转化demo
 `system.out.println(2+3+“=2+3=”+2+3)；`
 
 控制台输出：
 `5=2+3=23`
 
-### 2.2格式化输出
+### 2.2 格式化输出
 println输出回车
 
 print不输出回车
 
 输出两位有效数字
 `System.out.printf("%.2f", 7.128741)`
+
+### 2.2 输入
+`Scanner in = new Scanner(System.in);`
+
+`in.next()` -->读入一个单词，结束的标志位空格()
 
 ## 3.定义常量
 final
@@ -114,3 +119,10 @@ int --> Integer, char --> Character
 `Integer.Max_VALUE` 得到int型的最大范围
 
 `Character.toLowerCase('A')` --> a, 可以使用许多方法
+
+## 11.String
+注意：String 的S是大写，和其他类型不一样，而是和包裹类型一样
+
+`String s = new String("Hello world")`
+
+String的定义和数组一样需要用new，也就说明了和数组一样定义的是管理者，还不是所有者
