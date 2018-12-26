@@ -34,6 +34,9 @@ private
 friendly
 如果前面不加访问属性，就是friendly，在同一个包里可以使用
 
+### 2.2 编译单元
 public 类的定义加上public，该类一定在以该类命名的java文件中，如： 
 
 `public class test{}` 一定在test.java中
+
+一个 \*\*.java是一个编译单元，里面只能有一个public类，并且和文件名相同
