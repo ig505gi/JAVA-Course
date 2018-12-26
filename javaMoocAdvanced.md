@@ -40,3 +40,9 @@ public 类的定义加上public，该类一定在以该类命名的java文件中
 `public class test{}` 一定在test.java中
 
 一个 \*\*.java是一个编译单元，里面只能有一个public类，并且和文件名相同
+## 3 包
+### 3.1
+在一个包pac下面的的每个java文件一定有一行`package pac`
+
+包中类的调用方式：
+
