@@ -26,6 +26,9 @@
 
 创建对象的时候，先调用构造函数，再初始化成员变量，再进入构造函数内部。
 
+### 1.5 toString()
+ 可以用于任何一个类中，使类的输出变成想要的结果
+
 ## 2 对象交互
 ### 2.1 访问属性
 **private** 
@@ -57,9 +60,11 @@ public 类的定义加上public，该类一定在以该类命名的java文件中
 ## 4 对象容器
 ### 4.1 定义
 
-`ArrayList<String> notes = new ArrayList<String>()`
+`ArrayList<String> notes = new ArrayList<String>();`
 
 定义了一个存放String的ArrayList，ArrayList是一种范型类，就是一种容器
+
+容器的输出带着方括号
 
 ### 4.2 对象数组
 对象数组的每一个元素都是对象的管理者，而非对象本身
@@ -67,4 +72,21 @@ public 类的定义加上public，该类一定在以该类命名的java文件中
 不像int数组，for-each循环的时候，不能对每个元素赋值，
 
 对象数组和对象容器都可以在for-each循环中，对对象的成员变量赋值。
+
+### 4.3 set定义
+
+`HashSet<String> notes = new HashSet<String>();`
+
+HashSet没有重复元素，乱序
+
+### 4.4 Hash(类似python中字典)
+
+`HashMap<Integer, String> hm = new Hashmap<Integer, String>();`
+
+需要用Integer，int的包裹类型，都是类的名字
+
+`hm.put(5, "five")` 用于往HashMap的对象中放元素
+
+重复key进行put，value会覆盖
+
 
