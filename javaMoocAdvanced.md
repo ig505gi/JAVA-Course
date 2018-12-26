@@ -53,3 +53,11 @@ public 类的定义加上public，该类一定在以该类命名的java文件中
 
 包中类的调用方式：
 ![package](https://github.com/CoderOrigin/JAVA-Course/blob/firstBranch/image/package.png)
+
+## 4 容器
+### 4.1 定义
+
+`ArrayList<String> notes = new ArrayList<String>()`
+
+定义了一个存放String的ArrayList，ArrayList是一种范型类
+
