@@ -34,7 +34,14 @@
 **friendly**
 如果前面不加访问属性，就是friendly，在同一个包里可以使用
 
-### 2.2 编译单元
+### 2.2 类变量
+**static** 静态变量，是类的变量，不是对象的变量，可以用”类.“去访问
+
+同样，函数前加 static，函数是类函数。
+
+**static函数只能调用static函数，只能访问static变量**
+
+### 2.3  public&编译单元
 public 类的定义加上public，该类一定在以该类命名的java文件中，如： 
 
 `public class test{}` 一定在test.java中
