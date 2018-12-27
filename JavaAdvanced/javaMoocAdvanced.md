@@ -133,3 +133,12 @@ Java缺省使用动态绑定。
 接口是纯抽象类  
 所有的成员函数都是抽象函数，所有的成员变量声明都是 `public static final`  
 接口规定了长什么样，但不管里面是什么
+
+## 7.2 类实现
+如何**声明**  
+`public class Fox extands Animal implements Cell {}`  
+定义了一个 Fox类，继承自 Animal类， 实现了 Cell接口
+
+## 7.3 接口变量(自己命名)
+`Cell c = new Fox();`  
+一个Cell接口的变量可以赋于任何一个实现了Cell接口的类
