@@ -155,3 +155,5 @@ Java缺省使用动态绑定。
 如果定义在A的外部，如果B想访问A类的成员，需要将A类实例化（**很麻烦**）
 
 ## 9. 匿名类
+![匿名类](https://github.com/CoderOrigin/JAVA-Course/blob/firstBranch/image/%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC.png)  
+这里定义的就是一个匿名类
