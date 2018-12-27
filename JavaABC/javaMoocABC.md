@@ -162,3 +162,17 @@ String的定义和数组一样需要用new，也就说明了和数组一样定�
 
 `s.toLowerCase()` 变成小写
 
+### 11.5 StringBuffer
+```
+String re = ""
+re += "first"
+re += "second"
+```
+这样的代码对系统开销很大,因为String是一种不可以修改的对象，每一次“+=”操作都会产生一个String对象  
+***优化***
+```
+StringBuffer sb = new StringBuffer()；
+sb.append("first");
+sb.append("second");
+String re = sb.toString();
+```
