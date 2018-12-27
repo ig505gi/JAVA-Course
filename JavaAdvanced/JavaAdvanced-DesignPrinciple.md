@@ -24,3 +24,5 @@ Jbutton类想要实现按下去，调用step()的操作，但是我们不能在J
 ActionListener接口中只有一个actionPerfomed函数， btnStep实例执行addActionListener函数后，就将actionPerfomed函数注册给了btnStep  
 当btnStep被按下去的时候，就会执行外部override的actionPerfomed函数。  
 ### 2.2. MVC
+View-Model-Control  
+View 和 Control不直接有关系，通过Model(模型、数据)来连接
