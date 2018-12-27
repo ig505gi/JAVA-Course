@@ -1,4 +1,11 @@
-# HelloWorld
-My first repository
+## Java学习记录
 
-Learning to use github is my first step to be a coder!
+学习Java的笔记
+
+主要内容有： 
+
+1.不熟悉的知识点
+
+2.容易忘记的知识点
+
+3.与其他学过的语言不太相同的知识点
