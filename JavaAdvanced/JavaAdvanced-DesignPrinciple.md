@@ -18,5 +18,9 @@
 
 ## 2.设计思想
 ### 2.1. 控制反转
-
+![控制反转](https://github.com/CoderOrigin/JAVA-Course/blob/firstBranch/image/%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC.png)  
+Jbutton类想要实现按下去，调用step()的操作，但是我们不能在Jbutton类中再定义，是原本的框架。  
+但是Jbutton类实现了ActionListener接口，并且有addActionListener函数。  
+ActionListener接口中只有一个actionPerfomed函数， btnStep实例执行addActionListener函数后，就将actionPerfomed函数注册给了btnStep  
+当btnStep被按下去的时候，就会执行外部override的actionPerfomed函数。  
 ### 2.2. MVC
