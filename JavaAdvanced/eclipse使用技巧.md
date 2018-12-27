@@ -5,3 +5,6 @@ Source --> Genete Constructor using Fields... --> 勾选上需要的成员变量
 
 ### 2. override
 也可以用Source --> Override ...
+
+### 3. 转到定义/声明
+右键 --> Open Declaration
