@@ -1,4 +1,4 @@
-# 基于MOOC 面向对象语言--JAVA 程序设计
+# JAVA知识点
 
 ## 1.一些设计原则
 ### 1.1. 消除代码复制
@@ -26,3 +26,6 @@ ActionListener接口中只有一个actionPerfomed函数， btnStep实例执行ad
 ### 2.2. MVC
 View-Model-Control  
 View 和 Control不直接有关系，通过Model(模型、数据)来连接
+
+## 3.加载类
+https://www.cnblogs.com/doit8791/p/5820037.html
