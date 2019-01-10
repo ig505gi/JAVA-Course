@@ -8,3 +8,6 @@ Source --> Genete Constructor using Fields... --> 勾选上需要的成员变量
 
 ### 3. 转到定义/声明
 右键 --> Open Declaration
+
+### 4. 单元测试
+https://www.cnblogs.com/wufulin/p/8622858.html
