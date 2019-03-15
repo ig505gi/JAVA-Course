@@ -29,3 +29,14 @@ View 和 Control不直接有关系，通过Model(模型、数据)来连接
 
 ## 3.加载类
 https://www.cnblogs.com/doit8791/p/5820037.html
+
+
+## 4.Java中的位运算符：  
+ \>\>表示右移，如果该数为正，则高位补0，若为负数，则高位补1；  
+ \>\>\>表示无符号右移，也叫逻辑右移，即若该数为正，则高位补0，而若该数为负数，则右移后高位同样补0。 
+
+## 5.用户自定义hash code  
+可以采用 31x + y rule
+
+## 6.hash collision
+解决办法： 1、separate chaining 2、linear probing
