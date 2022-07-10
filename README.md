@@ -1,12 +1,7 @@
-## Java学习记录
+
 ### 本项目主要基于 mooc 翁老师JAVA视频学习
-学习Java的笔记
+学习Java的作业和demo
 
-
-主要内容有： 
-
-1.不熟悉的知识点
-
-2.容易忘记的知识点
-
-3.与其他学过的语言不太相同的知识点（说着跟我会很多语言似的，其实就之前学了点python，和Python不一样的地方记录了下）
+笔记见个人博客：
+https://ig505gi.github.io/myBlog/2018/12/24/%E9%9B%B6%E5%9F%BA%E7%A1%80Java-%E6%85%95%E8%AF%BE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0
+https://ig505gi.github.io/myBlog/2018/12/25/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E6%85%95%E8%AF%BE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
